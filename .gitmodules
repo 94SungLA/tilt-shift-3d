@@ -1,0 +1,4 @@
+[submodule "iottalk-reference"]
+	path = iottalk-reference
+	url = https://github.com/IoTtalk/Dummy_Device_IoTtalk_v1_py.git
+	ignore = untracked

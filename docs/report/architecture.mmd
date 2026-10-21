@@ -1,0 +1,11 @@
+flowchart LR
+  P[Smartphone Accelerometer] --> I[Smartphone Acceleration IDF]
+  I --> J[IoTtalk Join Function sample XYZ]
+  J --> O["Dummy_Device / Dummy_Control ODF"]
+  O --> D[Official DAI DAN csmapi HTTP pull]
+  D --> S[Custom tiltshift SA JSON events]
+  S --> B[Receiver thread and locked buffer]
+  B --> C[Gravity alignment calibration Controller]
+  K[Keyboard Demo] --> C
+  C --> G[Game geometry and scoring]
+  G --> R[Panda3D scene HUD and audio]
